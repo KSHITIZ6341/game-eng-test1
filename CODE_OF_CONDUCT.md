@@ -40,4 +40,4 @@ Examples:
 Incomplete: “It crashes”  
 Actionable: “`mesh.draw()` crashes when vertex_count == 0; stacktrace below”
 
-Use the issue template, attach minimal test assets if needed.
+Use the issue template, attach minimal test assets if needed. 
