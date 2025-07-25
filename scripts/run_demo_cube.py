@@ -21,7 +21,7 @@ root.add(cube)
 cube.drawable = Mesh.cube(renderer._device)
 renderer.set_scene(root)
 
-graph = GraphRuntime(Path(__file__).parent.parent / "assets/graphs/spin_pingpong.json")
+graph = GraphRuntime(Path(__file__).parent.parent / "assets/graphs/editing.json")
 
 
 def step() -> None:
