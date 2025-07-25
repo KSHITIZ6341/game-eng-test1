@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "nodes": [
+    {
+      "id": "rotateY1",
+      "type": "RotateY",
+      "params": { "speed": 1.5708 }
+    }
+  ],
+  "links": []
+}
