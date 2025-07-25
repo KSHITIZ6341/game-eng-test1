@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "nodes": [
+    {
+      "id": "timer1",
+      "type": "Timer",
+      "params": { "period": 4.0 },
+      "inputs": [],
+      "outputs": ["elapsed"]
+    },
+    {
+      "id": "rotY1",
+      "type": "RotateY",
+      "params": { "speed": 6.2832 },
+      "inputs": ["speed"],
+      "outputs": []
+    }
+  ],
+  "links": [
+    { "src": "timer1.elapsed", "dst": "rotY1.speed" }
+  ]
+}

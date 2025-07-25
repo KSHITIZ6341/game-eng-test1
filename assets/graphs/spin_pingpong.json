@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "nodes": [
+    {
+      "id": "pp1",
+      "type": "PingPong",
+      "params": { "period": 4.0 },
+      "inputs": [],
+      "outputs": ["factor"]
+    },
+    {
+      "id": "rotY1",
+      "type": "RotateY",
+      "params": { "speed": 6.2832 },
+      "inputs": ["factor"],
+      "outputs": []
+    }
+  ],
+  "links": [
+    { "src": "pp1.factor", "dst": "rotY1.factor" }
+  ]
+}
